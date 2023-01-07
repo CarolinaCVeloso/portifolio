@@ -1,0 +1,250 @@
+/* --- CUSTOM PROPERTIES --- */ 
+
+:root {
+     /* colours */
+     --clr-dark: #1f1511;
+     --clr-light: #DECFBA;
+     --clr-white: #ffffff;
+ 
+     /* font-families */
+     font-family: 'Barlow', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Shippori Mincho', serif;
+    }
+
+/* RESET margins */
+body, h1, h2, h3, h4, h5, p, figure, picture {
+    margin: 0;
+}
+
+body{
+    background: #1f1511;
+}
+
+/* colours */
+
+.bg-dark { background-color: #1f1511;}
+.bg-accent { background-color: #DECFBA;}
+.bg-white { background-color: #ffffff}
+
+.text-dark { color: #1f1511;}
+.text-accent { color: #DECFBA;}
+.text-white { color: #ffffff;}
+
+a {
+    text-decoration: none;
+    color: #9f9586;
+}
+
+#home {
+    background: #1f1511;
+    height: 90vh;
+    color: #9f9586;
+    font-size: 30px;
+    font-family: 'Shippori Mincho', serif;
+    
+}
+
+.logo-pessoal {
+    position: fixed;
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+nav ul{
+    position: fixed;
+    float: right;
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    margin-left: 670px;
+    font-size: 23px;
+}
+
+nav.brown ul {
+    background: #1f1511;
+    border-radius: 10px;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+h1 { 
+    font-family: 'Shippori Mincho', serif;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+   
+}
+
+p {
+    font-size: 20px;
+    color: #9f9586;
+}
+
+.home-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.home-text {
+    margin-left: 250px;
+    margin-top: 120px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    padding-top: 5px;
+    background-color: #644336;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background:#34231c;
+    color: #DECFBA;
+    font-weight:600;
+}
+
+.social {
+    margin-top: .5em;
+    display: inline-block;
+}
+
+.imagem-inicio {
+    display: flex;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 90px;
+
+
+}
+
+#information-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background: #231813;
+}
+
+
+#sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+
+#project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+h2{
+    font-family: 'Shippori Mincho', serif;
+    font-size: 35px;
+    font-weight:600;
+    color: #DECFBA;
+}
+
+.project-card {
+    width: 200px;
+    height: 250px;
+    box-shadow: 5px 5px 20px #644336;
+    }
+
+.project-card:hover {
+    width: 200px;
+    height: 250px;
+    background-color: #34231c;
+    box-shadow: 5px 5px 20px #9f9586;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.embreve {
+    display:flex;
+    padding: 100px;
+    justify-content:center;
+    rotate: 0deg;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.embreve:hover {
+    display:flex;
+    padding: 100px;
+    justify-content:center;
+    rotate: -40deg;
+    font-weight: 900;
+    letter-spacing: 5px;
+    transition: ease-in-out 0.5s;
+}
+
+.contact-info {
+    background: #231813;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.socials-footer:hover {
+    rotate: -130deg;
+    transition: 3000ms;
+}
+
+footer {
+    height: 50px;
+    background: #1f1511;
+    justify-content: center;
+    display: flex;
+}
+
+.logo-footer {
+     height:45px;
+}
+
+@media only screen and (max-width: 1000px){
+    .home{
+        height: 50vh;
+    }
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #information-section p {
+        font-size: 15px;
+
+    }
+}
