@@ -184,6 +184,28 @@ h2{
     box-shadow: 5px 5px 20px #9f9586;
 }
 
+.project-card-encriptador {
+    width: 200px;
+    height: 250px;
+    background-image: url(img/imagem-encriptador.png);
+    background-size:cover;
+    box-shadow: 5px 5px 20px #644336;
+}
+
+.project-card-encriptador:hover {
+    width: 200px;
+    height: 250px;
+    background-image: url(img/imagem-encriptador.png);
+    background-size:cover;
+    box-shadow: 5px 5px 20px #9f9586;
+}
+
+.legenda {
+   text-align: left;
+   margin-left: 90px;
+   margin-bottom: 20px;
+}
+
 .project-container {
     display: flex;
     justify-content: space-around;
