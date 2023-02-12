@@ -18,7 +18,7 @@ body, h1, h2, h3, h4, h5, p, figure, picture {
 }
 
 body{
-    background: #1f1511;
+    background: #423025;
 }
 
 /* colours */
@@ -124,7 +124,7 @@ p {
 
 .button:hover {
     background:#34231c;
-    color: #DECFBA;
+    color: #423025;
     font-weight:600;
 }
 
